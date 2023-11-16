@@ -59,7 +59,7 @@ state of the modal, while the `closeModal` function can be used to close it. Bel
 custom hook in a modal-based route:
 
 ```tsx
-import Modal, { useOpenAndCloseModal } from "@/components/Modal";
+import Modal, { useOpenAndCloseModal } from "@/Components/Modal";
 
 const ModalBasedRoute = () => {
     const { open, closeModal } = useOpenAndCloseModal()
