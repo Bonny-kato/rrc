@@ -20,6 +20,10 @@ export default {
                 },
                 secondary: "#3b82f6",
             },
+            backgroundImage: {
+                "custom-gradient":
+                    "linear-gradient(90deg, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.2) 20%, rgba(255, 255, 255, 0.5) 60%, rgba(255, 255, 255, 0))",
+            },
             container: {
                 center: true,
             },
@@ -27,6 +31,16 @@ export default {
             screens: {
                 "3xl": "1792px",
                 "4xl": "2048px",
+            },
+
+            // shimmer skeleton loader config
+            animation: {
+                shimmer: "shimmer 3s infinite",
+            },
+            keyframes: {
+                shimmer: {
+                    "100%": { transform: "translateX(100%)" },
+                },
             },
         },
     },
