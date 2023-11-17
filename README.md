@@ -1,67 +1,26 @@
-# React Starter Repository
+# React Components Collection
 
-This repository is a React starter project that includes a set of initial components, hooks, and features to help
-kick-start any new React-based project.
+Welcome to our React Component Library!
 
-## Features
+Discover a rich collection of pre-built React components, powerful hooks, and essential features, carefully crafted to accelerate the launch of your next React-based project. Whether you're building a web app, website, or any React-powered application, our library provides the building blocks you need for rapid development and a seamless user experience.
 
-### Components
+Key Features:
+- A diverse range of reusable components, from buttons to complex UI elements.
+- Time-saving custom hooks for common tasks like data fetching and state management.
+- Well-documented codebase with clear examples and usage guidelines.
+- Easy integration with your existing React projects.
+- Regular updates and enhancements to keep your development stack up-to-date.
+
+
+
+
+### Available Components
 
 This project repository contains the following customizable Components:
 
-- Form controls: Button, Input, Select, Textarea, Combobox
 - Modal
 - SlideOver
-- Permission
-- Badge
-- Avatar
+- Skeleton Loader
 
-### Hooks
 
-We have incorporated a range of hooks for data manipulation and UI control:
-
-- Local Storage Manipulation Hook
-- React Query Cache Manipulation Hook
-- ClickAway Hook
-
-### Data Fetching
-
-The repository implements an easy mechanism for fetching data, simplifying the process of requests and data handling.
-
-### Well-Structured
-
-The project maintains an organized structure for application routes, queries, and folders. This makes it easy to
-maintain, extends, and scales your project.
-
-### Getting Started
-
-To get started with the project, follow these steps:
-
-1. Clone this repository to your local machine.
-   ```shell
-   https://github.com/Bonny-kato/react-starter.git
-
-2. Navigate to the project directory.
-   ```shell
-   cd react-starter
-
-3. Install the project dependencies.
-   ```shell
-   yarn install
-   ```
-
-### Running the Project
-
-To run the project on your local machine, follow these steps:
-
-1. Start project
-    ```shell
-   yarn run dev
-   ```
-2. Open your web browser and visit http://localhost:3000.
-
-With all the features mentioned above, this project aims to ease and accelerate the development of new React projects,
-providing a rich set of reusable components, hooks, and well-structured folders.
-
-Please feel free to contribute and enhance the existing set-up.
-
+Empower your development journey with our React Component Library and supercharge your projects today!
