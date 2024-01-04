@@ -5,7 +5,7 @@ export default {
         extend: {
             colors: {
                 primary: {
-                    DEFAULT: 500,
+                    DEFAULT: "#1C70D4",
                     50: "#F2FAFC",
                     100: "#E3F3FA",
                     200: "#BFE2F5",
@@ -21,7 +21,8 @@ export default {
                 secondary: "#3b82f6",
             },
             backgroundImage: {
-                "custom-gradient":
+                // skeleton loader overlay background
+                "skeleton-gradient":
                     "linear-gradient(90deg, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.2) 20%, rgba(255, 255, 255, 0.5) 60%, rgba(255, 255, 255, 0))",
             },
             container: {

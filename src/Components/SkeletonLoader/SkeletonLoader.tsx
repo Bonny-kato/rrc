@@ -6,7 +6,7 @@ const baseStyledClasses = `
     after:absolute 
     after:inset-0 
     after:-translate-x-full
-    after:bg-custom-gradient
+    after:bg-skeleton-gradient
     after:animate-shimmer
     relative overflow-hidden
     bg-[#E7EDF0] rounded w-full py-2
