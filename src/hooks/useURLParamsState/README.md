@@ -5,8 +5,7 @@ The `useURLParamsState` custom hook is an enhanced tool for managing URL paramet
 
 1. **Extended Functionality Over useSearchParams:** While useSearchParams allows basic manipulation and retrieval of URL query parameters, useURLParamsState takes it a step further by providing enhanced capabilities such as default parameter values, automatic merging of parameters, and a more intuitive handling of parameter state as a JavaScript object.
 2.  **Simplified Parameter Access:** Unlike useSearchParams, which requires individual retrieval of each parameter, useURLParamsState offers direct access to all parameters as a cohesive object. This makes it much more convenient to work with multiple URL parameters simultaneously.
-3. **Integrated Parameter Merging:** The hook automatically merges new parameters with existing ones during updates, a feature not inherently available in useSearchParams. This reduces the need for manual merging and simplifies state management in applications with complex parameter interactions.
-4.  **Default Parameters and Type Safety:** useURLParamsState allows for the specification of default parameter values and, when used with TypeScript, ensures type safety for the parameters object, enhancing the robustness and reliability of the application.
+3.  **Default Parameters and Type Safety:** useURLParamsState allows for the specification of default parameter values and, when used with TypeScript, ensures type safety for the parameters object, enhancing the robustness and reliability of the application.
 
 
 ### When to Use `useURLParamsState`
